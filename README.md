@@ -13,14 +13,14 @@ git clone https://github.com/s0uvik-das/Vault-Key
 ```
 
     
-## How to use
+## Run
 
 To run this tool
 
 ```bash
-  cd Vault-Key 
-  chmod +x vaultkey.sh
-  ./vaultkey.sh
+cd Vault-Key 
+chmod +x vaultkey.sh
+./vaultkey.sh
 ```
 
 
