@@ -38,13 +38,6 @@ function generate_password () {
     if (( $length < 12 )); then
     
         echo -e "${RED}   WARNING: Choose a password length of 12 or more for better strong password. ${NC}"
-        # echo
-        # echo -e "${RED}   if(password_length <= 7){${NC}"
-        # echo -e "${RED}     echo 'Password will be less secure'${NC}"
-        # echo -e "${RED}   }else{${NC}"
-        # echo -e "${RED}   echo 'Password will be more secure'${NC}"
-        # echo -e "${RED}   }${NC}"
-
         echo
 
         local chars="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-={}[]|\:;'<>,.?/"  # All possible characters
